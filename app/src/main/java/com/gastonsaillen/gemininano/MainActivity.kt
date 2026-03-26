@@ -19,9 +19,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             GeminiNanoTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    GeminiChatScreen()
-                }
+                GeminiChatScreen()
             }
         }
     }

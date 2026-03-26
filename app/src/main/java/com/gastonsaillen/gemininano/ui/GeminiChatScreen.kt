@@ -24,7 +24,7 @@ fun GeminiChatScreen(geminiViewModel: GeminiViewModel = viewModel()) {
         }
     }
 
-    Scaffold( /* ... tu TopBar se mantiene igual ... */ ) { paddingValues ->
+    Scaffold { paddingValues ->
         Column(modifier = Modifier.fillMaxSize().padding(paddingValues).padding(16.dp)) {
 
             Box(modifier = Modifier.weight(1f).fillMaxWidth()) {
